@@ -8,6 +8,7 @@ import com.jetbrains.kmpapp.screens.list.ListScreen
 @Composable
 fun App() {
     MaterialTheme {
-        Navigator(ListScreen)
+//        Navigator(ListScreen)
+        CameraView()
     }
 }
