@@ -94,5 +94,6 @@ android {
     }
     dependencies {
         debugImplementation(libs.androidx.compose.ui.tooling)
+        commonMainApi(libs.permissions.compose) // permissions api + compose extensions
     }
 }
